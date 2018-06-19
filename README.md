@@ -15,7 +15,7 @@ It will scream and count whenever people pass by it!
 2)You will have to know which GPio you will plug-in
   (in this tutoral will use BCM)
    
-    see pic1
+    see pi-GPio
     
 3)Set up your PIR Sensor and make sure it can work
 
@@ -27,3 +27,7 @@ It will scream and count whenever people pass by it!
 4)Set up your Buzzer and connect it with a resister and link it to BCM 8
 
 5)Its time for the 7 segment display
+    
+    1. Link it like the demo picture above (pir_demon)
+    
+6)Run pir8.py and enjoy it!
