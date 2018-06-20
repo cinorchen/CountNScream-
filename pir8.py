@@ -36,6 +36,7 @@ try:
                                              print ("Motion Detected!", count)
                                              GPIO.output(8, 1)
                                              count += 1
+                                             time.sleep(1)
                                              for n in range(0, 8):
                                                      GPIO.output(seg[n], digits[str( count  % 10 )][n])
                              elif i==0 :
